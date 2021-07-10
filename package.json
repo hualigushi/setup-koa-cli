@@ -1,0 +1,28 @@
+{
+  "name": "setup-koa-cli",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": "./bin/index.js",
+  "type": "module",
+  "files": [
+    "bin",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "ejs": "^3.1.6",
+    "execa": "^5.1.1",
+    "inquirer": "^8.1.1",
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "prettier": "^2.3.2"
+  }
+}
